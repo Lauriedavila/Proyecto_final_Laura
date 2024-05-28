@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../lajura"
+		},
+		{
+			"path": "../Planeta Tierra"
+		},
+		{
+			"path": "../Veleros"
+		},
+		{
+			"path": "../Proyecto"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lajura"
+	}
+}

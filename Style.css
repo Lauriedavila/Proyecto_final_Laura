@@ -1,0 +1,133 @@
+   html, body { 
+    height: 100%
+   } 
+
+
+/*Para que quede centrado y sin puntos ruta de nav*/
+ul {
+    list-style-type: none; /* Quita los puntos de los elementos de la lista */
+    padding: 20px;            /* Elimina el relleno predeterminado del navegador */
+    margin-right: 500px;    /* Espacio entre los elementos de la lista */
+    float: left;     
+    display:flex;
+    flex-direction:row;
+    text-decoration: none;
+    justify-content: space-between; /* Distribuye los elementos */
+    }
+
+
+body {
+    background-image: url("bodega-ruca-malen.jpg");
+    background-color: rgba(16, 14, 14, 0.5);
+    background-size: cover; 
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la ventana */
+    height: 100vh; /* Asegura que el body tenga al menos la altura de la ventana */
+    color: black;
+    
+}
+  
+
+ /*en la sub pagina "VINOS"*/
+.contenido {
+    text-align: center;    
+    -webkit-text-fill-color: white;
+    
+    
+    
+}
+
+.subpagina-fondo h1 {
+    
+    color: white; /* Color del texto */
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    color: white; /* Color del texto */
+    
+}
+
+/*vinos config*/
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centra los productos horizontalmente */
+    
+    color: black; /* Color del texto */
+    
+}
+
+footer { 
+    margin: 9%;
+    text-align: center;
+    color:white;
+    background-color: #000000cb;
+    padding: 1px;
+}
+
+/*NOSOTROS CONFIG. DE LAS IMÁGENES Y TEXTO*/
+.personas { 
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+ }
+
+/*LA TABLA SOLICITADA DE LOS MIEMBROS*/
+ table {
+    border-collapse: collapse; /* Necesario para que funcione border-spacing */
+    width: 100%; 
+    padding: 23px; /* Espaciado interno de las celdas */ 
+    text-align: center;
+}
+
+/*CONTACTO*/
+.whatsapp-link {
+    text-decoration: none;
+    color: #25d366;
+}
+
+aside {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    color: #212529;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: move;
+    z-index: 1000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside h6 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #343a40;
+}
+
+aside p {
+    margin-bottom: 0;
+}
+
+/*PRECIO DE LOS VINOS PARA QUE SEA LEGIBLE*/
+.precio {
+    background-color: #f0f0f0; 
+    padding: 10px; /* Espacio interno */
+            display: inline-block;
+}
+
+/*Video colocado en página contacto*/
+#video-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9999; /* Asegura que el video esté por encima de otros elementos */
+    border: 2px solid #000; /* Borde opcional para resaltar el video */
+    border-radius: 8px; /* Borde redondeado para suavizar los bordes */
+    overflow: hidden; /* Oculta el desbordamiento del video */
+    
+}
