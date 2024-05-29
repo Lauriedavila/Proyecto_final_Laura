@@ -1,4 +1,7 @@
+
+
 /*ALERTA MAYORÍA DE EDAD*/
+
 const edadDelUsuario = parseInt(prompt("¿Cuál es tu edad?"));
 if(edadDelUsuario >= 18){
     alert("Eres mayor de edad");
@@ -6,21 +9,8 @@ if(edadDelUsuario >= 18){
     alert("Eres menor de edad, por lo que entra bajo su responsabilidad");
 }
 
-// Verificar si la alerta ya se mostró
-if (!localStorage.getItem('alertaMostrada')) {
-    const edadDelUsuario = parseInt(prompt("¿Cuál es tu edad?"));
-    if (edadDelUsuario >= 18) {
-        alert("Eres mayor de edad");
-    } else {
-        alert("Eres menor de edad, por lo que entra bajo su responsabilidad");
-    }
-    // Marcar la alerta como mostrada
-    localStorage.setItem('alertaMostrada', true);
-}
 
-
-
-/*ALERTA SALIR DEL SITIO 
+/*ALERTA SALIR DEL SITIO */
 
 window.addEventListener("beforeunload", (evento) => {
     if (true) {
@@ -28,7 +18,7 @@ window.addEventListener("beforeunload", (evento) => {
         evento.returnValue = "";
         return "";
     }
-}); */
+});
 
 
 

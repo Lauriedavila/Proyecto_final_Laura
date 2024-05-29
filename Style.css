@@ -31,22 +31,12 @@ body {
  /*en la sub pagina "VINOS"*/
 .contenido {
     text-align: center;    
-    -webkit-text-fill-color: white;
+    color:white;
     
     
     
 }
 
-.subpagina-fondo h1 {
-    
-    color: white; /* Color del texto */
-    text-align: center;
-    padding: 20px;
-    margin: 0 auto;
-    display: inline-block;
-    color: white; /* Color del texto */
-    
-}
 
 /*vinos config*/
 .productos {
