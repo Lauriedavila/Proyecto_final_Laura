@@ -23,6 +23,7 @@ window.addEventListener("beforeunload", (evento) => {
 
 
 
+
 function añadirAlCarrito() {
     alert("El artículo se ha añadido al carrito");
 }

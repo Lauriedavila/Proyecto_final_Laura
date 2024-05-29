@@ -1,5 +1,6 @@
    html, body { 
     height: 100%;
+    width: 100%;
     margin: 0%;
    } 
 
@@ -20,12 +21,10 @@ ul {
 
 body {
     background-image: url("bodega-ruca-malen.jpg");
-    
     background-size: cover; 
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen en la ventana */
-    color: black;
-    
+    color: black;  
 }
   
 
@@ -122,12 +121,19 @@ aside p {
 }
 
 /*Video colocado en página DE VINOS*/
-#video-container {
+.video-container {
+    position: relative;
     
-    bottom: 20px;
-    right: 20px;
-    z-index: 2; /* Asegura que el video esté por encima de otros elementos */
-     
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+    
+}
+
+.video-container iframe {
+    width: auto;
+    height: auto;
 }
 
 aside {
@@ -148,11 +154,25 @@ aside {
     font-size: 16px;
     color: #666;
 }
+    
 
+.instagram-link {
+    color: #f432da; /* Color rosa */
+    text-decoration: none; /* Eliminar subrayado */
+}
 
+.instagram-link:hover {
+    color: pink; /* Cambiar color al pasar el mouse */
+}
 
+.email-link {
+    color: #271cc2; /* Color rosa */
+    text-decoration: none; /* Eliminar subrayado */
+}
 
-
+.email-link:hover {
+    color: rgb(41, 52, 201); /* Cambiar color al pasar el mouse */
+}
 
 
 
